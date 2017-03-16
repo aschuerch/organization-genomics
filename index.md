@@ -14,9 +14,7 @@ You should approach your sequencing project in a very similar way to how you do 
 to address your biological question, collected appropriate samples, and that you have enough statistical power. For all of those steps, collecting specimens, extracting DNA, prepping your samples, you've likely kept a lab notebook that details how and why you did each step, but documentation doesn't stop at the sequencer! 
 
 Every computational analysis you do is going to create many files, and inevitability, you'll 
-want to run some of those analysis again. Genomics projects can quickly accumulates hundreds of files across tens of folders. Do you remember what PCR conditions you used to create your sequencing library? Probably not. Similarly, you probably won't 
-remember whether your best alignment results were in Analysis1, AnalysisRedone, or AnalysisRedone2; or which quality cutoff 
-you used.
+want to run some of those analysis again. Genomics projects can quickly accumulates hundreds of files across tens of folders. Do you remember what PCR conditions you used to create your sequencing library? Probably not. Similarly, you probably won't remember whether your best alignment results were in Analysis1, AnalysisRedone, or AnalysisRedone2; or which quality cutoff you used.
 
 Luckily, recording your computational experiments is even easier than recording lab data. Copy/Paste will become your best friend, sensible file names will make your analysis traversable by you and your collaborators, and writing the methods section for your next paper will be a breeze. Let's look at the best practices for documenting your genomics project. 
 
@@ -53,9 +51,10 @@ Next, try making the following directories using the ``mkdir`` command
 
 
 * dc_workshop
-* dc_workshop/docs
 * dc_workshop/data
+* dc_workshop/docs
 * dc_workshop/results
+* dc_workshop/src
 
 
 Verify that you have created the directories;
@@ -75,6 +74,8 @@ dc_workshop/data:
 dc_workshop/docs:
 
 dc_workshop/results:
+
+dc_workshop/src:
 ```
 
 ### B. Document your activity on the project
@@ -85,14 +86,14 @@ The *history* command is a convenient way to document the all the commands you h
    ```bash
     $ history
     ```   
-The history likely contains many more commands that you have used just for these projects. Let's view the last several commands so that focus on just what we need for the project. 
+The history likely contains many more commands that you have used just for these projects. Let's view the last several commands that focus on just what we need for the project. 
 2. View the last n lines of your history (where n = approximately the last few lines you think relevant - for our example we will use the last 7:
 
     ```
     $ history | tail -n7
     ```
 As you may remember from the shell lesson, the pipe ``|`` sends the output of history to the next program, in this case, tail. We have used the -n option to give the last 7 lines.
-3. Using your knowledge of the shell use the append redirect ``>>`` to create a file called **dc_workshop_log_XXXX_XX_XX.txt** (Use the four-digit year, two-digit month, and two digit day, e.g. dc_workshop_log_2015_07_30.txt)
+3. Using your knowledge of the shell: use the append redirect ``>>`` to create a file called **dc_workshop_log_XXXX_XX_XX.txt** (Use the four-digit year, two-digit month, and two digit day, e.g. dc_workshop_log_2015_07_30.txt)
 4. You may have noticed that your history may contain the ``history`` command itself. To remove this redundancy from our log, lets use the ``nano`` text editor to fix the file:
    ```bash
 $ nano dc_workshop_log
@@ -169,6 +170,6 @@ If you want an image, just follow the link text in the brackets with an exclamat
 
 
 ###References
-[A Quick Guide to Organizing Computational Biology Projects] (http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424)
+[Good Enough Practices in Scientific Computing] (https://arxiv.org/pdf/1609.00037.pdf)
 
 
