@@ -125,6 +125,12 @@ It helps to have an editor so that you can see what your markdown will look like
 - [Maddown - Mac](http://macdown.uranusjr.com/)
 - [Markdown Pad - Windows](http://markdownpad.com/)
 
+Or online editors such as
+ - [Hashify](hashify.me)
+ - [Stackedit](https://stackedit.io/editor#)
+ 
+ and many others.
+
 **Markdown basics**
 
 See a really good guide at: https://help.github.com/articles/markdown-basics/
