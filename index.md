@@ -13,7 +13,7 @@ it's never too late to start.
 You should approach your sequencing project in a very similar way to how you do a biological experiment, and ideally, begins with experimental design. We're going to assume that you've already designed a beautiful sequencing experiment 
 to address your biological question, collected appropriate samples, and that you have enough statistical power. For all of those steps, collecting specimens, extracting DNA, prepping your samples, you've likely kept a lab notebook that details how and why you did each step, but documentation doesn't stop at the sequencer! 
 
-Every computational analysis you do is going to spawn many files, and inevitability, you'll 
+Every computational analysis you do is going to create many files, and inevitability, you'll 
 want to run some of those analysis again. Genomics projects can quickly accumulates hundreds of files across tens of folders. Do you remember what PCR conditions you used to create your sequencing library? Probably not. Similarly, you probably won't 
 remember whether your best alignment results were in Analysis1, AnalysisRedone, or AnalysisRedone2; or which quality cutoff 
 you used.
