@@ -174,7 +174,7 @@ If you want an image, just follow the link text in the brackets with an exclamat
 2. What is the difference between '>' and '>>'
 
 
-###References
+### References
 [Good Enough Practices in Scientific Computing](https://arxiv.org/pdf/1609.00037.pdf)
 
 
