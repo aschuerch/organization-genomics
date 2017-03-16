@@ -126,9 +126,10 @@ It helps to have an editor so that you can see what your markdown will look like
 - [Markdown Pad - Windows](http://markdownpad.com/)
 
 Or online editors such as
+
 - [Hashify](http://hashify.me/)
 
- and many others.
+and many others.
 
 **Markdown basics**
 
