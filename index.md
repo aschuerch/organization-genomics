@@ -5,7 +5,7 @@ title: Organizing Genomics Projects
 minutes: 5
 ---
 
-##Getting your project started
+## Getting your project started
 
 Project organization is one of the most important parts of a sequencing project, but is often overlooked in the excitement to get a first look at new data. While it's best to get yourself organized before you begin analysis,
 it's never too late to start.
@@ -20,7 +20,7 @@ Luckily, recording your computational experiments is even easier than recording 
 
 Your future self will thank you.
 
-##Exercise
+## Exercise
 
 In this exercise we will setup a filesystem for the project we will be using over the next few days. We will also introduce you to some helpful shell commands/programs/tools:
 
