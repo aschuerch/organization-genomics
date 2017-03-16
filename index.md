@@ -175,6 +175,6 @@ If you want an image, just follow the link text in the brackets with an exclamat
 
 
 ###References
-[Good Enough Practices in Scientific Computing] (https://arxiv.org/pdf/1609.00037.pdf)
+[Good Enough Practices in Scientific Computing](https://arxiv.org/pdf/1609.00037.pdf)
 
 
