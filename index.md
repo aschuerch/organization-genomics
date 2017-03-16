@@ -118,6 +118,7 @@ Markdown is a simplified version of HTML, the code that is behind most webpages 
 One reason to markdown is that it is a simple way to create documents that anyone can access. You may be very use to using word processing programs like Microsoft Word. While these are very nice, they are not free and not everyone has access. Also, when we are doing work on the computer usually using Linux we would not be able to read these Microsoft documents. 
 
 To write something in Markdown, all you need to do is write text like you always do, but you will format it using some special symbols.
+
 **Using an editor**
 
 It helps to have an editor so that you can see what your markdown will look like when it is rendered (final version that people see). Suggestions for free software include:
@@ -128,17 +129,20 @@ It helps to have an editor so that you can see what your markdown will look like
 Or online editors such as
 
 - [Hashify](http://hashify.me/)
+- [Canvas](https://usecanvas.com/)
 
 and many others.
 
 **Markdown basics**
 
-See a really good guide at: https://help.github.com/articles/markdown-basics/
-Paragraphs
+See a really good guide at: https://guides.github.com/features/mastering-markdown/
+
+**Paragraphs**
 
 Regular paragraphs are no different than typing on any text editor/word processor. Just type.
 
 **Adding Headings**
+
 Use the '#' key to make a line a heading (subtitle). For really big fonts use just one '#' the more '#'s' used, the smaller the subtitle. 
 
 # Example 1
