@@ -93,9 +93,11 @@ The history likely contains many more commands that you have used just for these
 As you may remember from the shell lesson, the pipe ``|`` sends the output of history to the next program, in this case, tail. We have used the -n option to give the last 7 lines.
 3. Using your knowledge of the shell: use the append redirect ``>>`` to create a file called **dc_workshop_log_XXXX_XX_XX.txt** (Use the four-digit year, two-digit month, and two digit day, e.g. dc_workshop_log_2015_07_30.txt)
 4. You may have noticed that your history may contain the ``history`` command itself. To remove this redundancy from our log, lets use the ``nano`` text editor to fix the file:
+
    ```bash
 $ nano dc_workshop_log
 ```
+
 From the nano screen, you should be able to use your cursor to navigate, type, and delete any redundant lines. 
 5. Add a dateline and comment to the line where you have created the directory e.g. 
     
@@ -103,6 +105,7 @@ From the nano screen, you should be able to use your cursor to navigate, type, a
     # 2015_07_30 
     # Created sample directories for the Data Carpentry workshop
     ```
+    
 6. Next, remove any lines of the history that are not relevant. Just navigate to those lines and use your delete key. 
 7. Close nano by hitting 'Control' and the 'X' key at the same time; notice in nano this is abbreviated '\^X'; nano will ask if you want to save; hit 'Y' for yes. When prompted for the 'File Name to Write' we can hit 'Enter' to keep the same name and save. 
 8. Now that you have created the file, move the file to 'dc_workshop/docs' using the ``mv`` command. 
@@ -133,7 +136,7 @@ and many others.
 
 **Markdown basics**
 
-See a really good guide at: https://guides.github.com/features/mastering-markdown/
+See a really good guide at: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
 **Paragraphs**
 
@@ -143,27 +146,37 @@ Regular paragraphs are no different than typing on any text editor/word processo
 
 Use the '#' key to make a line a heading (subtitle). For really big fonts use just one '#' the more '#'s' used, the smaller the subtitle. 
 
-\# Example 1  will become
+\# Example 1  
+will become
 # Example 1
 
-\#\# Example 2 
+\## Example 2 
+becomes
 ## Example 2
 
-\#\#\# Example 3 
+\### Example 3 
+becomes
 ### Example 3
 
-\#### Example 4
+\#### Example 4 
+becomes
 #### Example 4
 
+
 ### Bolding and emphasis
-Surrounding a word or phrase with one set of asterisks (\*makes it italic\*) *makes it italic*. Using two sets (\*\*) **makes it bold**. 
+
+Surrounding a word or phrase with one set of asterisks (\*makes it italic\*) *makes it italic*. Using two sets (\*\*makes it bold\*\*) **makes it bold**. 
 
 #### Lists 
 Lists can be
 
 \* Unordered
+
 \* Start with a single asterisk
+
 \* Have one item per line.
+
+Which will be displayed as:
 
 * Unordered
 * Start with a single asterisk
@@ -172,7 +185,10 @@ Lists can be
 To make an ordered list:
 
 \1. Start the list with one number, followed by a period
+
 \2. On the next line, just use the next number. 
+
+Which will be displayed as: 
 
 1. Start the list with one number, followed by a period
 2. On the next line, just use the next number. 
@@ -182,12 +198,15 @@ To make an ordered list:
 A link is properly written in markdown using a pair of square brackets '[]' followed by round parentheses '()'. The text of the link will go in the square brackets, and the actual URL will go in the parentheses: 
 
 \[Link to Markdown Basics](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+will become:
+
 [Link to Markdown Basics](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
 If you want an image, just follow the link text in the brackets with an exclamation mark '![ ]\( )'
 <br>
 
-\![Kitten image](./img/kittens.jpg)
+\![Kitten image]\(./img/kittens.jpg)
+will become:
 
 ![Kitten image](./img/kittens.jpg)
 
