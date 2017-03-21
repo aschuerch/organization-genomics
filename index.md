@@ -143,21 +143,37 @@ Regular paragraphs are no different than typing on any text editor/word processo
 
 Use the '#' key to make a line a heading (subtitle). For really big fonts use just one '#' the more '#'s' used, the smaller the subtitle. 
 
-\# Example 1 # Example 1
-\#\# Example 2 ## Example 2
-\#\#\# Example 3 ### Example 3
+\# Example 1  will become
+# Example 1
+
+\#\# Example 2 
+## Example 2
+
+\#\#\# Example 3 
+### Example 3
+
+\#### Example 4
 #### Example 4
 
 ### Bolding and emphasis
-Surrounding a word or phrase with one set of asterisks (**) *makes it italic*. Using two sets **makes it bold**. 
+Surrounding a word or phrase with one set of asterisks (\*makes it italic\*) *makes it italic*. Using two sets (\*\*) **makes it bold**. 
 
 #### Lists 
 Lists can be
+
+\* Unordered
+\* Start with a single asterisk
+\* Have one item per line.
+
 * Unordered
 * Start with a single asterisk
 * Have one item per line.
 
 To make an ordered list:
+
+\1. Start the list with one number, followed by a period
+\2. On the next line, just use the next number. 
+
 1. Start the list with one number, followed by a period
 2. On the next line, just use the next number. 
 
@@ -165,10 +181,14 @@ To make an ordered list:
 #### Links and Images
 A link is properly written in markdown using a pair of square brackets '[]' followed by round parentheses '()'. The text of the link will go in the square brackets, and the actual URL will go in the parentheses: 
 
-[Link to Markdown Basics](https://help.github.com/articles/markdown-basics/)
+\[Link to Markdown Basics](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+[Link to Markdown Basics](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
 If you want an image, just follow the link text in the brackets with an exclamation mark '![ ]\( )'
 <br>
+
+\![Kitten image](./img/kittens.jpg)
+
 ![Kitten image](./img/kittens.jpg)
 
 
