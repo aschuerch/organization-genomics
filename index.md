@@ -143,9 +143,9 @@ Regular paragraphs are no different than typing on any text editor/word processo
 
 Use the '#' key to make a line a heading (subtitle). For really big fonts use just one '#' the more '#'s' used, the smaller the subtitle. 
 
-# Example 1
-## Example 2
-### Example 3
+\# Example 1 # Example 1
+\#\# Example 2 ## Example 2
+\#\#\# Example 3 ### Example 3
 #### Example 4
 
 ### Bolding and emphasis
