@@ -22,7 +22,7 @@ Your future self will thank you.
 
 ## Exercise
 
-In this exercise we will setup a filesystem for the project we will be using today. We will also introduce you to some helpful shell commands/programs/tools:
+In this exercise we will setup a filesystem for the project we will be working on today. We will also introduce you to some helpful shell commands/programs/tools:
 
 * ``mkdir``
 * ``history``
@@ -134,6 +134,8 @@ Or online editors such as
 
 and many others.
 
+
+
 **Markdown basics**
 
 See a really good guide at: https://help.github.com/articles/basic-writing-and-formatting-syntax/
@@ -146,11 +148,11 @@ Regular paragraphs are no different than typing on any text editor/word processo
 
 Use the '#' key to make a line a heading (subtitle). For really big fonts use just one '#' the more '#'s' used, the smaller the subtitle. 
 
-\# Example 1  
+\# Example 1    
 will become
 # Example 1
 
-\## Example 2 
+\## Example 2   
 becomes
 ## Example 2
 
@@ -161,6 +163,7 @@ becomes
 \#### Example 4 
 becomes
 #### Example 4
+
 
 
 ### Bolding and emphasis
