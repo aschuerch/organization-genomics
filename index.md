@@ -148,22 +148,21 @@ Regular paragraphs are no different than typing on any text editor/word processo
 
 Use the '#' key to make a line a heading (subtitle). For really big fonts use just one '#' the more '#'s' used, the smaller the subtitle. 
 
-\# Example 1    
+\# Data Carpentry workshop    
 will become
-# Example 1
+# Data Carpentry workshop
 
-\## Example 2   
+\## Organization of genomics projects   
 becomes
-## Example 2
+## Organization of genomics projects
 
-\### Example 3 
+\### 2017-03-23
 becomes
-### Example 3
+### 2017-03-23
 
-\#### Example 4 
+\#### Created a simple directory structure for the Data Carpentry workshop
 becomes
-#### Example 4
-
+#### Created a simple directory structure for the Data Carpentry workshop
 
 
 ### Bolding and emphasis
@@ -200,10 +199,10 @@ Which will be displayed as:
 #### Links and Images
 A link is properly written in markdown using a pair of square brackets '[]' followed by round parentheses '()'. The text of the link will go in the square brackets, and the actual URL will go in the parentheses: 
 
-\[Link to Markdown Basics](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+\[Good Enough Practices in Scientific Computing]\](https://arxiv.org/pdf/1609.00037.pdf)
 will become:
 
-[Link to Markdown Basics](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+[Good Enough Practices in Scientific Computing](https://arxiv.org/pdf/1609.00037.pdf)
 
 If you want an image, just follow the link text in the brackets with an exclamation mark '![ ]\( )'
 <br>
